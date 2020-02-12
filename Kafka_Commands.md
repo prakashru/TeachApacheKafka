@@ -123,6 +123,7 @@ kafka-console-consumer.bat --zookeeper localhost:2181 --topic my-first-topic --f
 Example:  
 ```
 ./kafka-console-consumer.sh --zookeeper localhost:2181 --topic my-first-topic --from-beginning
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic my-first-topic
 ```
 
 ## How to delete a topic?
